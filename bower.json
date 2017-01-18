@@ -1,0 +1,17 @@
+{
+  "name": "css-element-queries",
+  "moduleType": ["amd"],
+  "main": [
+    "./main.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "_*",
+    "Gruntfile.js",
+    "composer.json",
+    "package.json",
+    "*.html"
+  ],
+  "dependencies": {
+  }
+}
