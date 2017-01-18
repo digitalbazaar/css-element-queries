@@ -6,9 +6,9 @@
 ;
 (function (root, factory) {
     if (typeof define === "function" && define.amd) {
-        define(['./ResizeSensor.js'], factory);
+        define(['./ResizeSensor'], factory);
     } else if (typeof exports === "object") {
-        module.exports = factory(require('./ResizeSensor.js'));
+        module.exports = factory(require('./ResizeSensor'));
     } else {
         root.ElementQueries = factory(root.ResizeSensor);
     }
